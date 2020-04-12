@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './Header';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Sidney Monteiro Júnior
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const [counter, setCounter] = useState(0);
+  //Array [value, func]
+
+  function increment() {
+   setCounter(counter + 1);
+  }
+
+  return  (
+    <div>
+      <Header>
+        contador : {counter}
+      </Header>
+      <button onClick={increment}>Increment</button>
     </div>
   );
 }
