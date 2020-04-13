@@ -1,0 +1,75 @@
+.Logon-container{
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  
+  background: #FFFFFF;
+}
+
+.Logon-container section.form {
+  
+}
+
+.Logon-container section.form form {
+  
+}
+
+.Logon-container section.form h1 {
+ 
+position: absolute;
+width: 356px;
+height: 182px;
+right: 72px;
+top: 487px;
+
+font-family: Ropa Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 77px;
+text-align: center;
+letter-spacing: 0.05em;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+
+text-shadow: 4px 4px 10px #7248EF;
+}
+
+.Logon-container section.form form a {
+position: absolute;
+width: 337px;
+height: 39px;
+left: 1041px;
+top: 928px;
+
+font-family: Ropa Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 39px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FCFCFC;
+
+text-shadow: 0px 4px 4px #260D70;
+transition: opacity 0.2s;
+}
+
+.Logon-container section.form form a svg {
+  margin-right: 10px;
+  
+}
+
+.Logon-container section.form form a:hover {
+  opacity: 0.8;
+}
+
+.image {
+ flex: 1;
+align-items: flex-start;
+}
