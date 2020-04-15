@@ -1,53 +1,30 @@
-// import React, { Component } from 'react';
-// // import { FiLogIn } from 'react-icons/fi';
-// import {
-//   StyleSheet,
-//   Text,
-//   View,
-//   ImageBackground
-// } from 'react-native';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { FiLogIn } from 'react-icons/fi';
 
-// import backgroundImg from '../../assets/backimg.png'
+import './styles.css';
+import logoImg from '../../assets/logo.svg';
+import heroesImg from '../../assets/heroes.png';
 
-// export default class Example extends Component {
-//   render() {
-//     return (
-//       <ImageBackground source={backgroundImg} style={Styles.backgoundContainer}>
+export default function Logon() {
+  return(
+    <div className="Logon-container">
+      <section className="form">
+        <img src={logoImg} alt="Seja o Heroi"/>
+        <form action="">
+          <h1>Logon</h1>
 
-//       </ImageBackground>
-//     );
-//   }
-// }
+          <input placeholder="ID"/>
+          <button className="button" type="submit">Enter</button>
 
-// const styles = StyleSheet.create({
-//   backgoundContainer: {
-//     flex:1,
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//   },
-// });
-// // import './styles.css';
-// // import logoImg from '../../assets/logo.svg'
-// // import backgroundImg from '../../assets/backimg.png'
-
-// // export default function Logon() {
-// //   return(
-// //     <div className="Logon-container">
-// //       <section className="form">
-// //         <img src={logoImg} alt="Logo"/>
-
-// //         <form >
-// //           <h1>Customer Login</h1>
-// //           <input placeholder="Your ID"/>
-// //           <button className="button" type="submit">Login</button>
-
-// //           <a href="/register">
-// //             <FiLogIn size={50} color="#FBFBFB"/>
-// //             I'm don't have an acount
-// //           </a>
-// //         </form>
-// //       </section>
-// //       <img className="image" src={backgroundImg} alt="Background image"/>
-// //     </div>
-// //   );
-// // }
+          <Link className="back-link" to="/register">
+            <FiLogIn size={16} color="#E02041" />
+            Sign Up Now
+          </Link>
+        </form>
+      
+      </section>
+      <img src={heroesImg} alt="Heroes"/>
+    </div>
+  );
+}

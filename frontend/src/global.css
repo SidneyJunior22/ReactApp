@@ -19,31 +19,55 @@ input, button, textarea {
 
 button {
   cursor: pointer;
+
 }
 
-form input {
-position: absolute;
-width: 338px;
-height: 72px;
-left: 1031px;
-top: 712px;
-
-background: #FFFFFF;
-box-shadow: 0px 4px 4px #1D353C;
-border-radius: 50px;
+form input {  
+width: 100%;
+height: 60px;
+color: #333;
+border: 2px solid #dcdce6;
+border-radius: 8px;
+padding: 0 20px;
 }
 
 .button {
-position: absolute;
-width: 338px;
-height: 72px;
-left: 1031px;
-top: 814px;
-
-background: #A28BE9;
-box-shadow: 0px 4px 4px #1D353C;
-border-radius: 50px;
-transition: 0.2s;
+  width: 100%;
+  height: 60px;
+  background: #e02041;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
 }
 
+.button:hover {
+  filter: brightness(90%);
+}
+
+/* .Logon-container section.form form a { */
+.back-link {
+  display: flex;
+  align-items: center;
+  margin-top: 32px;
+  color: #41414d;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.Logon-container section.form form a svg {
+  margin-right: 8px;
+}
+
+.Logon-container section.form form a:hover {
+  opacity: 0.8;
 }

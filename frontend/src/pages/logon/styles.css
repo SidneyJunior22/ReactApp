@@ -1,75 +1,27 @@
 .Logon-container{
-  position: relative;
-  width: 1440px;
-  height: 1024px;
-
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
   
-  background: #FFFFFF;
-}
-
-.Logon-container section.form {
   
-}
-
-.Logon-container section.form form {
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Logon-container section.form h1 {
- 
-position: absolute;
-width: 356px;
-height: 182px;
-right: 72px;
-top: 487px;
-
-font-family: Ropa Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 72px;
-line-height: 77px;
-text-align: center;
-letter-spacing: 0.05em;
-font-feature-settings: 'liga' off;
-
-color: #FFFFFF;
-
-text-shadow: 4px 4px 10px #7248EF;
+width: 100%;
+max-width: 350px;
+margin-right: 30px;
 }
 
-.Logon-container section.form form a {
-position: absolute;
-width: 337px;
-height: 39px;
-left: 1041px;
-top: 928px;
-
-font-family: Ropa Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 39px;
-/* identical to box height */
-
-text-align: center;
-letter-spacing: 0.05em;
-
-color: #FCFCFC;
-
-text-shadow: 0px 4px 4px #260D70;
-transition: opacity 0.2s;
+.Logon-container section.form form {
+margin-top: 100px;
 }
 
-.Logon-container section.form form a svg {
-  margin-right: 10px;
-  
+.Logon-container section.form form h1 {
+  font-size: 32px;
+  margin-bottom: 32px;
 }
 
-.Logon-container section.form form a:hover {
-  opacity: 0.8;
-}
-
-.image {
- flex: 1;
-align-items: flex-start;
-}
