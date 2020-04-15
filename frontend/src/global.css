@@ -46,6 +46,4 @@ border-radius: 50px;
 transition: 0.2s;
 }
 
-.button:hover {
-  filter: brightness(90%);
 }
