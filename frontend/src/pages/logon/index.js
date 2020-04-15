@@ -10,8 +10,8 @@ export default function Logon() {
   return(
     <div className="Logon-container">
       <section className="form">
-        <img src={logoImg} alt="Seja o Heroi"/>
-        <form action="">
+        <img src={logoImg} alt="Be The Hero"/>
+        <form>
           <h1>Logon</h1>
 
           <input placeholder="ID"/>
